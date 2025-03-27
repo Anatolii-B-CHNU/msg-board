@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/msg-board-backend"
+]
+resolver = "2"

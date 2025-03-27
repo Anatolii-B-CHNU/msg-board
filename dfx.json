@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "msg-board-backend": {
+      "candid": "src/msg-board-backend/msg-board-backend.did",
+      "package": "msg-board-backend",
+      "type": "rust"
+    },
+    "msg-board-frontend": {
+      "dependencies": [
+        "msg-board-backend"
+      ],
+      "source": [
+        "src/msg-board-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "msg-board-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

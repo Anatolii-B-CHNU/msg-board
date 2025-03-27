@@ -1,0 +1,8 @@
+node_modules/
+.dfx/
+dist/
+target/
+*.lock
+*.log
+.vscode/
+.env

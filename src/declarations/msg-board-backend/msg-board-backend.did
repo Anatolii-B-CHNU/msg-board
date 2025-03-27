@@ -1,0 +1,5 @@
+service : {
+  "add_message": (text: text) -> ();
+  "get_messages": () -> (vec text) query;
+  "clear_messages": () -> ();
+}
